@@ -29,7 +29,7 @@ end)
 if success then
     AnimalsData = result
 else
-    warn("Lumina Hub: Не удалось загрузить AnimalsData через require. Скрипт продолжит работу.")
+    warn("KawaiFu Hub: Не удалось загрузить AnimalsData через require. Скрипт продолжит работу.")
 end
 -- ============================================================
 
@@ -115,12 +115,12 @@ corner(hudFrame, 14)
 addGradient(hudFrame, BG_KEYS)
 addStrokeWithGradient(hudFrame)
 
--- Заголовок Lumina Hub (с переливом)
+-- Заголовок Kawaifu Hub (с переливом)
 local titleLabel = Instance.new("TextLabel")
 titleLabel.Size = UDim2.new(1, 0, 0, 30)
 titleLabel.Position = UDim2.new(0, 0, 0, 4)
 titleLabel.BackgroundTransparency = 1
-titleLabel.Text = "Lumina Hub"
+titleLabel.Text = "Kawaifu Hub"
 titleLabel.TextColor3 = COL_WHITE
 titleLabel.TextSize = 22
 titleLabel.Font = Enum.Font.GothamBold
@@ -129,12 +129,12 @@ titleLabel.ZIndex = 2
 titleLabel.Parent = hudFrame
 addGradient(titleLabel)
 
--- Текст discord.gg/hubscripts (серый, без перелива)
+-- Текст discord.gg/mWJvzX4JD (серый, без перелива)
 local madeByLabel = Instance.new("TextLabel")
 madeByLabel.Size = UDim2.new(1, 0, 0, 18)
 madeByLabel.Position = UDim2.new(0, 0, 0, 30)
 madeByLabel.BackgroundTransparency = 1
-madeByLabel.Text = "discord.gg/hubscripts"
+madeByLabel.Text = "discord.gg/mWJvzX4JD"
 madeByLabel.TextColor3 = COL_DIM
 madeByLabel.TextScaled = false
 madeByLabel.TextSize = 13
@@ -231,7 +231,7 @@ local panelTitle = Instance.new("TextLabel")
 panelTitle.Size = UDim2.new(1, -20, 0, 30)
 panelTitle.Position = UDim2.new(0, 10, 0, 4)
 panelTitle.BackgroundTransparency = 1
-panelTitle.Text = "Lumina Hub"
+panelTitle.Text = "KawaiFu Hub"
 panelTitle.TextColor3 = COL_WHITE
 panelTitle.TextSize = 20
 panelTitle.Font = Enum.Font.GothamBold
@@ -245,7 +245,7 @@ local panelSubtitle = Instance.new("TextLabel")
 panelSubtitle.Size = UDim2.new(1, -20, 0, 14)
 panelSubtitle.Position = UDim2.new(0, 10, 0, 30)
 panelSubtitle.BackgroundTransparency = 1
-panelSubtitle.Text = "discord.gg/hubscripts"
+panelSubtitle.Text = "discord.gg/mWJvzX4JD"
 panelSubtitle.TextColor3 = COL_DIM
 panelSubtitle.TextSize = 12
 panelSubtitle.Font = Enum.Font.GothamBold
