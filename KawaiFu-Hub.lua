@@ -1,6 +1,6 @@
 -- ============================================================
--- NEXUS HUB - WITH DESYNC FLOATING BUTTON
--- discord.gg/nexushub
+-- KawaiFu HUB - WITH DESYNC FLOATING BUTTON
+-- discord.gg/mWJvzX4JD
 -- ============================================================
 
 repeat task.wait() until game:IsLoaded()
@@ -1117,7 +1117,7 @@ end
 
 -- Main GUI
 gui = Instance.new("ScreenGui")
-gui.Name = "NexusHubGUI"
+gui.Name = "KawaiFuHubGUI"
 gui.ResetOnSpawn = false
 gui.DisplayOrder = 10
 gui.Parent = LocalPlayer:WaitForChild("PlayerGui")
@@ -1401,7 +1401,7 @@ local titleLbl = Instance.new("TextLabel")
 titleLbl.Size = UDim2.new(1, 0, 0, 36)
 titleLbl.Position = UDim2.new(0, 0, 0, 12)
 titleLbl.BackgroundTransparency = 1
-titleLbl.Text = "NEXUS HUB"
+titleLbl.Text = "Kawaifu HUB"
 titleLbl.TextColor3 = C_ACCENT
 titleLbl.Font = Enum.Font.GothamBlack
 titleLbl.TextSize = 28
@@ -1413,7 +1413,7 @@ local byLbl = Instance.new("TextLabel")
 byLbl.Size = UDim2.new(1, 0, 0, 14)
 byLbl.Position = UDim2.new(0, 0, 0, 50)
 byLbl.BackgroundTransparency = 1
-byLbl.Text = "discord.gg/nexushub"
+byLbl.Text = "discord.gg/mWJvzX4JD"
 byLbl.TextColor3 = C_DIM
 byLbl.Font = Enum.Font.GothamBold
 byLbl.TextSize = 11
