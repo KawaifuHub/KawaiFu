@@ -528,7 +528,7 @@ end)
 
 -- ==================== GUI ====================
 local gui = Instance.new("ScreenGui")
-gui.Name = "ZyroxDesync"
+gui.Name = "KawaiFuDesync"
 gui.ResetOnSpawn = false
 gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 gui.Parent = guiParent
@@ -553,7 +553,7 @@ mainStroke.Thickness = 1.8
 mainStroke.Parent = mainFrame
 
 local titleLabel = Instance.new("TextLabel")
-titleLabel.Text = "ZYROX DESYNC"
+titleLabel.Text = "KawaiFu DESYNC"
 titleLabel.Font = Enum.Font.LuckiestGuy
 titleLabel.TextSize = 14
 titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
